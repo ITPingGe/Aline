@@ -4,7 +4,7 @@
 import pygame
 from pygame.sprite import Sprite
 
-class Aline(Sprite):
+class Alien(Sprite):
     """表示单个外星人的类"""
 
     def __init__(self, ai_settings, screen):

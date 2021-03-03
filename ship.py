@@ -11,7 +11,7 @@ class Ship():
         self.ai_settings = ai_settings
 
         # 加载飞船图像并获取其外接矩形
-        # self.image = pygame.image.load('/Users/yanweiping/Documents/python/Aline/images/ship.bmp')
+        # self.image = pygame.image.load('/Users/yanweiping/Documents/python/Alien/images/ship.bmp')
         self.image = pygame.image.load('F:\creation\Python\Aline\images\ship.bmp')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
