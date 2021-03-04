@@ -29,6 +29,7 @@ def run_game():
         gf.check_events(ai_settings, screen, ship, bullets)
         ship.update()
         gf.update_bullets(bullets)
+        gf.update_aliens(ai_settings, aliens)
         # 每次循环时都重新绘制屏幕
         # 让最近绘制的屏幕可见
         gf.update_screen(ai_settings, screen, ship, aliens, bullets)
